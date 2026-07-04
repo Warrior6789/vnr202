@@ -38,6 +38,9 @@ export default function Footer() {
           <StatNumber target={56} label="Ngày Đêm Điện Biên" />
           <StatNumber target={1954} label="Hiệp Định Genève" />
         </div>
+        <span className="block text-amber-500 text-xs font-bold tracking-[0.3em] uppercase text-center mb-6">
+          Thành viên
+        </span>
         <div className="flex flex-wrap justify-center gap-8 mb-16">
           {teamMembers.map(m => (
             <div key={m.studentId} className="flex flex-col items-center">
