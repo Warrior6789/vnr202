@@ -56,11 +56,14 @@ export default function Footer() {
           ))}
         </div>
         <div className="section-divider" />
+        <p className="text-center text-stone-600 text-xs mb-2">
+          Được xây dựng với sự hỗ trợ của AI: Claude (Anthropic) — xây dựng website,
+          ChatGPT — soạn nội dung, Gemini — tra cứu thông tin
+        </p>
         <p className="text-center text-stone-500 text-xs tracking-wide mb-2">
           Nội dung dựa trên Giáo trình Lịch sử Đảng Cộng sản Việt Nam (1945-1954)
         </p>
-        <p className="text-center text-stone-600 text-xs mb-2">Creative Web Experience • 2026</p>
-        <p className="text-center text-stone-600 text-xs">Được xây dựng với sự hỗ trợ của AI Claude (Anthropic)</p>
+        <p className="text-center text-stone-600 text-xs">Creative Web Experience • 2026</p>
       </div>
     </footer>
   )
