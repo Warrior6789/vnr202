@@ -13,6 +13,10 @@ function StatNumber({ target, label, suffix = '' }: { target: number; label: str
   )
 }
 
+const teamMembers = [
+  { initials: 'NHPL', name: 'Nguyễn Hoàng Phi Long', studentId: 'SE170237' },
+]
+
 export default function Footer() {
   return (
     <footer className="py-24 px-6 bg-stone-900/40 border-t border-stone-800">
@@ -33,6 +37,20 @@ export default function Footer() {
           <StatNumber target={9} label="Năm Kháng Chiến" />
           <StatNumber target={56} label="Ngày Đêm Điện Biên" />
           <StatNumber target={1954} label="Hiệp Định Genève" />
+        </div>
+        <div className="flex flex-wrap justify-center gap-8 mb-16">
+          {teamMembers.map(m => (
+            <div key={m.studentId} className="flex flex-col items-center">
+              <div
+                className="w-16 h-16 rounded-full border-2 border-amber-500 flex items-center justify-center text-amber-400 font-bold mb-2"
+                style={{ fontFamily: "'Playfair Display',serif" }}
+              >
+                {m.initials}
+              </div>
+              <span className="text-stone-300 text-xs font-medium text-center">{m.name}</span>
+              <span className="text-stone-500 text-[10px] tracking-widest uppercase">{m.studentId}</span>
+            </div>
+          ))}
         </div>
         <div className="section-divider" />
         <p className="text-center text-stone-500 text-xs tracking-wide mb-2">
