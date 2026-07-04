@@ -15,8 +15,8 @@ export default function Section3() {
             period="1951 - 1954"
             title="Bước ngoặt và Thắng lợi"
             subtitle="Điện Biên Phủ — Lừng lẫy năm châu, chấn động địa cầu"
-            quote="Chiến thắng Điện Biên Phủ như một mốc son chói lọi bằng vàng... đã đi vào lịch sử dân tộc như một Bạch Đằng, một Chi Lăng, một Đống Đa của thế kỷ XX."
-            quoteAuthor="— Đại tướng Võ Nguyên Giáp"
+            quote="Điện Biên Phủ như là một cái mốc chói lọi bằng vàng của lịch sử. Nó ghi rõ nơi chủ nghĩa thực dân lăn xuống dốc và tan rã."
+            quoteAuthor="— Hồ Chí Minh, 1964"
             description="Đại hội đại biểu toàn quốc lần thứ II của Đảng (2/1951) đánh dấu bước phát triển mới. Cuộc kháng chiến tiến lên giành thắng lợi quyết định tại Điện Biên Phủ, buộc Pháp phải ký Hiệp định Genève, kết thúc chiến tranh, lập lại hòa bình ở Đông Dương."
             imageSrc={dienBienPhuImg}
             imageAlt="Bộ chỉ huy Chiến dịch Điện Biên Phủ"

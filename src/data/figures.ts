@@ -20,7 +20,7 @@ export const figures: Figure[] = [
     bio: 'Người sáng lập Đảng Cộng sản Việt Nam, đọc Tuyên ngôn Độc lập ngày 2/9/1945, là linh hồn của đường lối kháng chiến toàn dân, toàn diện, trường kỳ, tự lực cánh sinh.' },
   { id: 'vng', name: 'Võ Nguyên Giáp', role: 'Tổng Tư lệnh Quân đội Nhân dân Việt Nam', years: '1911 - 2013',
     image: voNguyenGiapImg,
-    quote: 'Chiến thắng Điện Biên Phủ như một mốc son chói lọi bằng vàng.',
+    quote: 'Ngày hôm đó, tôi đã thực hiện được một quyết định khó khăn nhất trong cuộc đời chỉ huy của mình.',
     bio: 'Trực tiếp chỉ huy Chiến dịch Biên giới 1950 và Chiến dịch Điện Biên Phủ 1954, người đặt nền móng cho nghệ thuật quân sự Việt Nam hiện đại.' },
   { id: 'tc', name: 'Trường Chinh', role: 'Tổng Bí thư Đảng Cộng sản Đông Dương', years: '1907 - 1988',
     image: truongChinhImg,
