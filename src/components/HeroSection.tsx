@@ -9,9 +9,6 @@ export default function HeroSection() {
         <div className="bg-overlay" />
       </div>
       <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
-        <p className="text-amber-400 text-sm font-medium tracking-[0.3em] uppercase mb-6">
-          Chương II - Phần I
-        </p>
         <h1 className="font-serif text-6xl md:text-8xl font-black mb-4 leading-none"
           style={{fontFamily:"'Playfair Display',serif"}}>
           <span className="block text-stone-100">Bản hùng ca</span>
