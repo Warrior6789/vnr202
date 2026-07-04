@@ -4,6 +4,7 @@ import Section2 from './components/Section2'
 import Section3 from './components/Section3'
 import MapSection from './components/map/MapSection'
 import FiguresSection from './components/figures/FiguresSection'
+import VideoSection from './components/videos/VideoSection'
 import Footer from './components/Footer'
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
       <Section2 />
       <Section3 />
       <FiguresSection />
+      <VideoSection />
       <MapSection />
       <Footer />
     </div>
