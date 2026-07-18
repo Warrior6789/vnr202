@@ -15,6 +15,9 @@ function StatNumber({ target, label, suffix = '' }: { target: number; label: str
 
 const teamMembers = [
   { initials: 'NHPL', name: 'Nguyễn Hoàng Phi Long', studentId: 'SE170237' },
+  { initials: 'NMA', name: 'Nguyễn Mai Anh', studentId: 'SA180169' },
+  { initials: 'ĐĐTL', name: 'Đặng Đinh Thiên Lân', studentId: 'SE171568' },
+  { initials: 'LQH', name: 'Lê Quang Hải', studentId: 'SE183698' },
 ]
 
 export default function Footer() {
